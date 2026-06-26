@@ -11,8 +11,8 @@ int main()
     {
         for (int j = 0; j < size; j++)
         {
-            int top = i;
-            int left = j;
+            int top = i;  // rows
+            int left = j; // columns
             int bottom = size - 1 - i;
             int right = size - 1 - j;
 
